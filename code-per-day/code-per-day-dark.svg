@@ -1,0 +1,68 @@
+<svg width="840" height="460" viewBox="0 0 840 460" xmlns="http://www.w3.org/2000/svg">
+  
+    <style>
+      @keyframes fadeInUp {
+        from { opacity: 0; transform: translateY(12px); }
+        to   { opacity: 1; transform: translateY(0); }
+      }
+      @keyframes growBar {
+        from { transform: scaleY(0); }
+        to   { transform: scaleY(1); }
+      }
+      .cpd-header  { animation: fadeInUp 0.5s ease both; }
+      .cpd-stats   { animation: fadeInUp 0.5s ease 0.15s both; }
+      .cpd-chart   { animation: fadeInUp 0.5s ease 0.3s both; }
+      .cpd-legend  { animation: fadeInUp 0.5s ease 0.45s both; }
+    </style>
+
+  <!-- Background -->
+  <rect width="840" height="460" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+
+  <!-- Header -->
+  <g class="cpd-header">
+    <a href="https://github.com/mpge/code-per-day" target="_blank">
+      <text x="24" y="44" fill="#e6edf3" font-size="18" font-family="'Segoe UI', sans-serif" font-weight="700">Code Per Day</text>
+    </a>
+    <text x="816" y="44" fill="#6e7681" font-size="13" font-family="'Segoe UI', sans-serif" text-anchor="end" font-weight="500">@cnordenb</text>
+  </g>
+
+  <!-- Stats Cards -->
+  <g class="cpd-stats">
+    
+    <rect x="24" y="60" width="190" height="68" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+    <text x="119" y="78" fill="#6e7681" font-size="11" font-family="'Segoe UI', sans-serif" text-anchor="middle" font-weight="500">Today</text>
+    <text x="119" y="100" fill="#3fb950" font-size="16" font-family="'Segoe UI Mono', 'Cascadia Code', monospace" text-anchor="middle" font-weight="700">+144</text>
+    <text x="119" y="118" fill="#f85149" font-size="14" font-family="'Segoe UI Mono', 'Cascadia Code', monospace" text-anchor="middle" font-weight="600">-112</text>
+    <rect x="222" y="60" width="190" height="68" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+    <text x="317" y="78" fill="#6e7681" font-size="11" font-family="'Segoe UI', sans-serif" text-anchor="middle" font-weight="500">30d Avg</text>
+    <text x="317" y="100" fill="#3fb950" font-size="16" font-family="'Segoe UI Mono', 'Cascadia Code', monospace" text-anchor="middle" font-weight="700">+7,370</text>
+    <text x="317" y="118" fill="#f85149" font-size="14" font-family="'Segoe UI Mono', 'Cascadia Code', monospace" text-anchor="middle" font-weight="600">-1,555</text>
+    <rect x="420" y="60" width="190" height="68" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+    <text x="515" y="78" fill="#6e7681" font-size="11" font-family="'Segoe UI', sans-serif" text-anchor="middle" font-weight="500">Year Avg</text>
+    <text x="515" y="100" fill="#3fb950" font-size="16" font-family="'Segoe UI Mono', 'Cascadia Code', monospace" text-anchor="middle" font-weight="700">+955</text>
+    <text x="515" y="118" fill="#f85149" font-size="14" font-family="'Segoe UI Mono', 'Cascadia Code', monospace" text-anchor="middle" font-weight="600">-186</text>
+        <rect x="618" y="60" width="190" height="68" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+        <text x="713" y="78" fill="#6e7681" font-size="11" font-family="'Segoe UI', sans-serif" text-anchor="middle" font-weight="500">Streak</text>
+        <text x="713" y="104" fill="#58a6ff" font-size="20" font-family="'Segoe UI Mono', 'Cascadia Code', monospace" text-anchor="middle" font-weight="700">12</text>
+        <text x="713" y="120" fill="#6e7681" font-size="11" font-family="'Segoe UI', sans-serif" text-anchor="middle">days</text>
+  </g>
+
+  <!-- Chart -->
+  <g class="cpd-chart">
+    <line x1="72" y1="148" x2="808" y2="148" stroke="#21262d" stroke-width="1" stroke-dasharray="4,4"/><line x1="72" y1="213.5" x2="808" y2="213.5" stroke="#21262d" stroke-width="1" stroke-dasharray="4,4"/><line x1="72" y1="279" x2="808" y2="279" stroke="#21262d" stroke-width="1" stroke-dasharray="4,4"/><line x1="72" y1="344.5" x2="808" y2="344.5" stroke="#21262d" stroke-width="1" stroke-dasharray="4,4"/><line x1="72" y1="410" x2="808" y2="410" stroke="#21262d" stroke-width="1" stroke-dasharray="4,4"/><line x1="72" y1="279" x2="808" y2="279" stroke="#30363d" stroke-width="1.5"/><text x="64" y="162" fill="#6e7681" font-size="10" font-family="'Segoe UI', sans-serif" text-anchor="end">+9,707</text><text x="64" y="406" fill="#6e7681" font-size="10" font-family="'Segoe UI', sans-serif" text-anchor="end">-9,707</text><text x="64" y="283" fill="#6e7681" font-size="10" font-family="'Segoe UI', sans-serif" text-anchor="end">0</text><rect x="72" y="278.9626043061708" width="21.741935483870968" height="0.03739569382919543" fill="#3fb950" rx="3" opacity="0.9"><title>2026-10-20: +3 additions</title></rect><rect x="72" y="279" width="21.741935483870968" height="0.03739569382919543" fill="#f85149" rx="3" opacity="0.9"><title>2026-10-20: -3 deletions</title></rect><rect x="95.74193548387098" y="158" width="21.741935483870968" height="121" fill="#3fb950" rx="3" opacity="1"><title>2026-10-21: +19,163 additions</title></rect><polygon points="102.61290322580646,159 110.61290322580646,159 106.61290322580646,153" fill="#3fb950" opacity="0.7"/><rect x="95.74193548387098" y="279" width="21.741935483870968" height="44.06459256206861" fill="#f85149" rx="3" opacity="0.9"><title>2026-10-21: -3,535 deletions</title></rect><rect x="119.48387096774194" y="236.97970536726075" width="21.741935483870968" height="42.02029463273926" fill="#3fb950" rx="3" opacity="0.9"><title>2026-10-22: +3,371 additions</title></rect><rect x="119.48387096774194" y="279" width="21.741935483870968" height="32.58411455650561" fill="#f85149" rx="3" opacity="0.9"><title>2026-10-22: -2,614 deletions</title></rect><rect x="143.2258064516129" y="272.96682806222316" width="21.741935483870968" height="6.033171937776862" fill="#3fb950" rx="3" opacity="0.9"><title>2026-10-23: +484 additions</title></rect><rect x="143.2258064516129" y="279" width="21.741935483870968" height="2.829607499742454" fill="#f85149" rx="3" opacity="0.9"><title>2026-10-23: -227 deletions</title></rect><rect x="166.96774193548387" y="266.8339342742351" width="21.741935483870968" height="12.166065725764911" fill="#3fb950" rx="3" opacity="0.9"><title>2026-10-24: +976 additions</title></rect><rect x="166.96774193548387" y="279" width="21.741935483870968" height="6.855877202019162" fill="#f85149" rx="3" opacity="0.9"><title>2026-10-24: -550 deletions</title></rect><rect x="214.4516129032258" y="260.04038322859793" width="21.741935483870968" height="18.959616771402082" fill="#3fb950" rx="3" opacity="0.9"><title>2026-10-26: +1,521 additions</title></rect><rect x="214.4516129032258" y="279" width="21.741935483870968" height="121" fill="#f85149" rx="3" opacity="1"><title>2026-10-26: -15,176 deletions</title></rect><polygon points="221.32258064516128,399 229.32258064516128,399 225.32258064516128,405" fill="#f85149" opacity="0.7"/><rect x="238.19354838709677" y="242.93808591737923" width="21.741935483870968" height="36.06191408262079" fill="#3fb950" rx="3" opacity="0.9"><title>2026-10-27: +2,893 additions</title></rect><rect x="238.19354838709677" y="279" width="21.741935483870968" height="2.2063459359225304" fill="#f85149" rx="3" opacity="0.9"><title>2026-10-27: -177 deletions</title></rect><rect x="309.4193548387097" y="263.20655197280314" width="21.741935483870968" height="15.793448027196868" fill="#3fb950" rx="3" opacity="0.9"><title>2026-10-30: +1,267 additions</title></rect><rect x="309.4193548387097" y="279" width="21.741935483870968" height="9.373853919851653" fill="#f85149" rx="3" opacity="0.9"><title>2026-10-30: -752 deletions</title></rect><rect x="333.16129032258067" y="178.00669619861955" width="21.741935483870968" height="100.99330380138045" fill="#3fb950" rx="3" opacity="0.9"><title>2026-10-31: +8,102 additions</title></rect><rect x="333.16129032258067" y="279" width="21.741935483870968" height="50.09776449984547" fill="#f85149" rx="3" opacity="0.9"><title>2026-10-31: -4,019 deletions</title></rect><rect x="356.9032258064516" y="246.40342021221798" width="21.741935483870968" height="32.59657978778201" fill="#3fb950" rx="3" opacity="0.9"><title>2026-11-01: +2,615 additions</title></rect><rect x="356.9032258064516" y="279" width="21.741935483870968" height="19.258782322035646" fill="#f85149" rx="3" opacity="0.9"><title>2026-11-01: -1,545 deletions</title></rect><rect x="380.64516129032256" y="244.74554445245698" width="21.741935483870968" height="34.25445554754301" fill="#3fb950" rx="3" opacity="0.9"><title>2026-11-02: +2,748 additions</title></rect><rect x="380.64516129032256" y="279" width="21.741935483870968" height="25.055114865560938" fill="#f85149" rx="3" opacity="0.9"><title>2026-11-02: -2,010 deletions</title></rect><rect x="523.0967741935484" y="261.1747192747502" width="21.741935483870968" height="17.825280725249822" fill="#3fb950" rx="3" opacity="0.9"><title>2026-11-08: +1,430 additions</title></rect><rect x="523.0967741935484" y="279" width="21.741935483870968" height="14.484598743175027" fill="#f85149" rx="3" opacity="0.9"><title>2026-11-08: -1,162 deletions</title></rect><rect x="546.8387096774194" y="267.3699392191202" width="21.741935483870968" height="11.630060780879777" fill="#3fb950" rx="3" opacity="0.9"><title>2026-11-09: +933 additions</title></rect><rect x="546.8387096774194" y="279" width="21.741935483870968" height="0.8725661893478933" fill="#f85149" rx="3" opacity="0.9"><title>2026-11-09: -70 deletions</title></rect><rect x="570.5806451612902" y="158" width="21.741935483870968" height="121" fill="#3fb950" rx="3" opacity="1"><title>2026-11-10: +10,902 additions</title></rect><polygon points="577.4516129032257,159 585.4516129032257,159 581.4516129032257,153" fill="#3fb950" opacity="0.7"/><rect x="570.5806451612902" y="279" width="21.741935483870968" height="59.484083650973524" fill="#f85149" rx="3" opacity="0.9"><title>2026-11-10: -4,772 deletions</title></rect><rect x="641.8064516129032" y="276.5942103636551" width="21.741935483870968" height="2.4057896363449056" fill="#3fb950" rx="3" opacity="0.9"><title>2026-11-13: +193 additions</title></rect><rect x="665.5483870967741" y="158" width="21.741935483870968" height="121" fill="#3fb950" rx="3" opacity="1"><title>2026-11-14: +161,083 additions</title></rect><polygon points="672.4193548387096,159 680.4193548387096,159 676.4193548387096,153" fill="#3fb950" opacity="0.7"/><rect x="665.5483870967741" y="279" width="21.741935483870968" height="68.11002369424128" fill="#f85149" rx="3" opacity="0.9"><title>2026-11-14: -5,464 deletions</title></rect><rect x="713.0322580645161" y="278.78809106830124" width="21.741935483870968" height="0.2119089316987741" fill="#3fb950" rx="3" opacity="0.9"><title>2026-11-16: +17 additions</title></rect><rect x="736.7741935483871" y="158" width="21.741935483870968" height="121" fill="#3fb950" rx="3" opacity="1"><title>2026-11-17: +10,343 additions</title></rect><polygon points="743.6451612903226,159 751.6451612903226,159 747.6451612903226,153" fill="#3fb950" opacity="0.7"/><rect x="736.7741935483871" y="279" width="21.741935483870968" height="74.54208303286289" fill="#f85149" rx="3" opacity="0.9"><title>2026-11-17: -5,980 deletions</title></rect><rect x="760.516129032258" y="275.31029154218606" width="21.741935483870968" height="3.689708457813949" fill="#3fb950" rx="3" opacity="0.9"><title>2026-11-18: +296 additions</title></rect><rect x="760.516129032258" y="279" width="21.741935483870968" height="0.3240960131863604" fill="#f85149" rx="3" opacity="0.9"><title>2026-11-18: -26 deletions</title></rect><rect x="784.258064516129" y="277.2050066961986" width="21.741935483870968" height="1.7949933038013806" fill="#3fb950" rx="3" opacity="0.9"><title>2026-11-19: +144 additions</title></rect><rect x="784.258064516129" y="279" width="21.741935483870968" height="1.3961059029566294" fill="#f85149" rx="3" opacity="0.9"><title>2026-11-19: -112 deletions</title></rect><text x="82.87096774193549" y="426" fill="#6e7681" font-size="10" font-family="'Segoe UI', sans-serif" text-anchor="middle">Oct 20</text><text x="201.58064516129033" y="426" fill="#6e7681" font-size="10" font-family="'Segoe UI', sans-serif" text-anchor="middle">Oct 25</text><text x="320.2903225806452" y="426" fill="#6e7681" font-size="10" font-family="'Segoe UI', sans-serif" text-anchor="middle">Oct 30</text><text x="439" y="426" fill="#6e7681" font-size="10" font-family="'Segoe UI', sans-serif" text-anchor="middle">Nov 4</text><text x="557.7096774193549" y="426" fill="#6e7681" font-size="10" font-family="'Segoe UI', sans-serif" text-anchor="middle">Nov 9</text><text x="676.4193548387096" y="426" fill="#6e7681" font-size="10" font-family="'Segoe UI', sans-serif" text-anchor="middle">Nov 14</text><text x="795.1290322580645" y="426" fill="#6e7681" font-size="10" font-family="'Segoe UI', sans-serif" text-anchor="middle">Nov 19</text>
+  </g>
+
+  <!-- Legend -->
+  <g class="cpd-legend">
+    <circle cx="30" cy="442" r="5" fill="#3fb950"/>
+    <text x="40" y="446" fill="#8b949e" font-size="11" font-family="'Segoe UI', sans-serif">Additions</text>
+    <circle cx="124" cy="442" r="5" fill="#f85149"/>
+    <text x="134" y="446" fill="#8b949e" font-size="11" font-family="'Segoe UI', sans-serif">Deletions</text>
+    <text x="816" y="446" fill="#6e7681" font-size="10" font-family="'Segoe UI', sans-serif" text-anchor="end">Last 31 days · +228,484 / -48,194 lines</text>
+  </g>
+
+  <!-- Get your own -->
+  <a href="https://github.com/mpge/code-per-day" target="_blank">
+    <text x="420" y="452" fill="#6e7681" font-size="10" font-family="'Segoe UI', sans-serif" text-anchor="middle" opacity="0.6">Get your own — github.com/mpge/code-per-day</text>
+  </a>
+</svg>
