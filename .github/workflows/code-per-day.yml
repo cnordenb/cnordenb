@@ -21,6 +21,7 @@ jobs:
           period: "30"
           output_path: ./code-per-day
           all_themes: "false"
+          exclude_repos: "Junction2026_Sargas"
 
       - name: Commit
         run: |
