@@ -14,13 +14,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: mpge/code-per-day@v1
+      - uses: cnordenb/code-per-day@main
         with:
           github_token: ${{ secrets.CPD_TOKEN }}
           theme: dark
           period: "30"
           output_path: ./code-per-day
-          image_types: "code,commits"
           all_themes: "false"
 
       - name: Commit
