@@ -1,5 +1,5 @@
 <details>
-  <summary>Repository list</summary>
+  <summary><b>Repository list</b></summary>
   
   | Name | Description | Tech Stack | KLOC |
   |-|-|-|-|
