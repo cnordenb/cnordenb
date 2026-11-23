@@ -10,8 +10,8 @@
   | [frcp-mobile](https://github.com/cnordenb/frcp-mobile) | Fresh Random Civ Picker for Android | Kotlin | 6.6 |
   | [frcp.net](https://github.com/cnordenb/frcp.net) | Fresh Random Civ Picker in the web browser | JavaScript, CSS, HTML | 4.6 |
   | [aoe2vils.net](https://github.com/cnordenb/aoe2vils.net) | Modified derivative of [Survivalist's original](https://github.com/PeterWhiteJavascript/aoe2-de-tools) for simpler UX | JavaScript, CSS, HTML | 3.7 |
+  | [speech-to-text](https://github.com/cnordenb/speech-to-text) | Desktop app which takes audio file as input and outputs text | Rust | 1.2 |
   | [atlas-maker](https://github.com/cnordenb/atlas-maker) | Several same resolution png files to single webp atlas converter | C | 1.0 |
-  | [speech-to-text](https://github.com/cnordenb/speech-to-text) | Desktop app which takes audio file as input and outputs text | Rust | 0.9 |
   | [repo-kloc-counter](https://github.com/cnordenb/repo-kloc-counter) | Get any public github repo's KLOC by in a simple command-line | JavaScript, HTML | 0.9 |
   | [colour-codes](https://github.com/cnordenb/colour-codes/) | Colour code lookup for arbitrary item listed in CSV | JavaScript, CSS, HTML | 0.2 |
   | [frcp-cli](https://github.com/cnordenb/frcp-cli) | (ARCHIVED) Original command-line interface version of FRCP | C | 0.2 |
