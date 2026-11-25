@@ -3,7 +3,7 @@
   
   | Name | Description | Tech Stack | KLOC |
   |-|-|-|-|
-  | [civeditor](https://github.com/cnordenb/civeditor) | Modified derivative of [napkingcole's Empire Forge](https://github.com/napkingcole/aoe2-empire-forge) for a simpler UX | C | 25.0 |
+  | [civeditor](https://github.com/cnordenb/civeditor) | Modified derivative of [napkingcole's Empire Forge](https://github.com/napkingcole/aoe2-empire-forge) for a simpler UX | C | 32.3 |
   | [frcp-desktop](https://github.com/cnordenb/frcp-desktop) | Pseudo-random AoE2 civilisation draw for variety+randomness | C++ | 15.4 |
   | [frcp-monorepo](https://github.com/cnordenb/frcp-monorepo) | (ARCHIVED) Discontinued mono-repository of FRCP for all platforms | TypeScript, CSS, HTML | 8.9 |
   | [civexplorer.net](https://github.com/cnordenb/civexplorer.net) | Explore AoE2DE civs by tech filter | JavaScript, CSS, HTML | 6.8 |
